@@ -1,0 +1,6 @@
+n = int(raw_input())
+arr = map(int, raw_input().split())[:n]
+sets=set(arr)
+sets.remove(max(sets))
+
+print(max(sets))
